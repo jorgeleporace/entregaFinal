@@ -1,0 +1,14 @@
+@mixin barraPrincipal {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgb(222, 222, 245);
+    align-items: center;
+    padding: 10px;
+}
+@mixin flexCenterColumn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}

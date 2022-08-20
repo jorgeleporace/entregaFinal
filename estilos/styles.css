@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: sans-serif;
+  margin: 0;
+  width: 100%;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  background-color: rgb(222, 222, 245);
+  align-items: center;
+  padding: 10px;
+}
+
+.logoConTexto {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.img {
+  max-width: 100%;
+  width: 300px;
+  height: 250px;
+}
+
+.logoGls {
+  height: 90px;
+}
+
+.logo {
+  width: 85px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+}
+
+.itemsMenu {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+nav itemsMenu:hover {
+  color: rgb(29, 17, 87);
+}
+
+.primerFoto {
+  width: 100%;
+}
+
+footer {
+  padding: 0% 0% 40px 0%;
+  background-color: rgb(245, 248, 250);
+}
+
+small {
+  font-size: small;
+  padding: auto;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+}
+
+.lightblue {
+  background-color: #88b4c9;
+}
+
+.barraFlex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.redSocial {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: xx-large;
+}
+
+.redSocial a {
+  padding: 10px;
+}
+
+.box {
+  margin: 20px;
+  gap: 10px;
+  justify-content: center;
+}
+
+.grupo1 {
+  color: rgb(0, 0, 0);
+  padding: 0%;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.grupo2 {
+  color: rgb(2, 2, 2);
+  padding: 0%;
+  align-items: center;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  padding: 40px;
+  margin: 80px 40px 80px 40px;
+  text-align: center;
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+
+h4 {
+  color: rgb(52, 52, 52);
+  padding: 40px;
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+
+p {
+  color: rgb(52, 52, 52);
+  padding: 40px;
+  border-radius: 10px solid blue;
+}
+
+h2 {
+  color: rgb(52, 52, 52);
+  padding: 40px;
+  border-radius: 10px solid blue;
+}
+
+h3 {
+  color: rgb(52, 52, 52);
+  padding: 40px;
+  border-radius: 10px solid blue;
+}
+
+.staffContainer {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}/*# sourceMappingURL=styles.css.map */

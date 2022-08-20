@@ -1,0 +1,38 @@
+h1{
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    margin: 80px 40px 80px 40px;
+    text-align: center;
+    position: relative;
+    top: 40px; 
+    left: 40px;
+}
+h4{
+    color: rgb(52, 52, 52);
+    padding: 40px;
+    position: relative;
+    top: 40px; 
+    left: 40px;
+}
+p{
+    color: rgb(52, 52, 52);
+    padding: 40px;
+    border-radius: 10px solid blue;
+}
+h2{
+    color: rgb(52, 52, 52);
+    padding: 40px;
+    border-radius: 10px solid blue;
+}
+h3{
+    color: rgb(52, 52, 52);
+    padding: 40px;
+    border-radius: 10px solid blue;
+}
+.staffContainer{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

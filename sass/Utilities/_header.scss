@@ -1,0 +1,42 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgb(222, 222, 245);
+    align-items: center;
+    padding: 10px;
+}
+.logoConTexto{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-right: 10px;
+}
+.img{
+    max-width: 100%;
+    width: 300px;
+    height: 250px;
+}
+.logoGls{
+    height: 90px;
+}
+.logo {
+    width: 85px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+.itemsMenu{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav itemsMenu:hover{
+    color: rgb(29, 17, 87);
+}
+.primerFoto{
+    width: 100%;
+}

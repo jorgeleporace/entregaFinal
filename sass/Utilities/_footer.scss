@@ -1,0 +1,47 @@
+footer{
+    padding: 0% 0% 40px 0%;
+    background-color: rgb(245, 248, 250);
+}
+small{
+    font-size: small;
+    padding: auto;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+.lightblue{
+    background-color: #88b4c9;
+}
+.barraFlex{
+    display: flex;
+    justify-content: flex-end;
+}
+.redSocial{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content:center;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: xx-large;
+}
+.redSocial a{
+    padding: 10px;
+}
+.box{
+    margin: 20px;
+    gap: 10px;
+    justify-content: center; 
+}
+.grupo1{
+    color: rgb(0, 0, 0);
+    padding: 0%;
+    margin-left: 20px;
+    align-items: center;
+}
+.grupo2{
+    color: rgb(2, 2, 2);
+    padding: 0%;
+    align-items: center;
+}
