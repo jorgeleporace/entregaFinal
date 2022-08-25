@@ -14,7 +14,7 @@
   display: flex;
   justify-content: space-between;
   height: 100px;
-  background-color: rgb(222, 222, 245);
+  background-color: lightblue;
   align-items: center;
   padding: 10px;
 }
@@ -61,21 +61,8 @@ nav itemsMenu:hover {
   width: 100%;
 }
 
-footer {
-  padding: 0% 0% 40px 0%;
+.lightblue{
   background-color: lightblue;
-}
-
-small {
-  font-size: small;
-  padding: auto;
-  color: rgb(0, 0, 0);
-  display: flex;
-  justify-content: center;
-}
-
-.lightblue {
-  background-color: #88b4c9;
 }
 
 .barraFlex {
@@ -83,41 +70,36 @@ small {
   justify-content: flex-end;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  background-color: lightblue;
+}
+
+footer h2 {
+  padding: 0;
+}
+
+footer p {
+  padding: 0;
+}
+
 .redSocial {
-  margin: 20px;
-  padding: 20px;
   display: flex;
   flex-direction: row;
   align-content: center;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-evenly;
+  padding: 20px 0px;
   font-size: xx-large;
 }
 
 .redSocial a {
-  padding: 10px;
   text-decoration: none;
-  justify-content: center;
-}
-
-.box {
-  margin: 20px;
-  gap: 10px;
-  justify-content: center;
-}
-
-.grupo1 {
-  color: rgb(0, 0, 0);
-  padding: 0%;
-  align-items: center;
-  justify-content: center;
-}
-
-.grupo2 {
-  color: rgb(2, 2, 2);
-  padding: 0%;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 h1 {

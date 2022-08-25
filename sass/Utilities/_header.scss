@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     height: 100px;
-    background-color: rgb(222, 222, 245);
+    background-color: $fondoCeleste;
     align-items: center;
     padding: 10px;
 }
@@ -39,4 +39,8 @@ nav itemsMenu:hover{
 }
 .primerFoto{
     width: 100%;
+}
+.barraFlex{
+    display: flex;
+    justify-content: flex-end;
 }
