@@ -25,8 +25,6 @@
                             <div class="navbar-nav">
                                 <a class="nav-link active" href="../index.html">Home</a>
                                 <a class="nav-link active" href="../sections/courses.html">Courses</a>
-                                <a class="nav-link active" href="../sections/classes.html">Classes</a>
-                                <a class="nav-link active" href="../sections/profile.html">Profile</a>
                                 <a class="nav-link active" href="../sections/traducciones.html">Translations</a>
                                 <a class="nav-link active" href="../sections/staff.html">Staff</a>
                                 <a class="nav-link active" href="../sections/contact.html">Contact Us</a>
@@ -86,41 +84,19 @@
                 </div>
             </div>    
         </section> 
-        <section class="container-fluid">
-            <div class="row justify-content-evenly p-5">
-                <div class="card text-center" style="width: 18rem;">
-                    <img class="imagenesCards" src="./images/alumna estudiando online 2.jpeg" class="card-img-top" alt="Conoce nuestros cursos y paquetes">
-                        <div class="card-body">
-                            <h5 class="card-title">CURSOS Y PAQUETES</h5>
-                            <p class="card-text">Nuestros cursos y paquetes.</p>
-                            <a href="./sections/courses.html" class="btn btn-primary">VER</a>
-                        </div>
-                </div>
-                <div class="card text-center" style="width: 18rem;">
-                    <img src="./images/word power.jpeg" class="card-img-top" alt="Traducción de Documentos">
-                        <div class="card-body">
-                            <h5 class="card-title">TRADUCCIONES</h5>
-                            <p class="card-text">Traducciones e Interpretes</p>
-                            <a href="./sections/traducciones.html" class="btn btn-primary">VER</a>
-                        </div>
-                </div>
-                <div class="card text-center" style="width: 18rem;">
-                    <img src="./images/alumno estudiando online.jpeg" class="card-img-top" alt="Test de nivelación">
-                    <div class="card-body">
-                        <h5 class="card-title">TEST DE NIVEL</h5>
-                        <p class="card-text">Evaluación de nivel GRATIS.</p>
-                        <a href="./sections/classes.html" class="btn btn-primary">VER</a>
+        <section class="formularioPerfil container">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                     </div>
-                </div>
-                <div class="card text-center" style="width: 18rem;">
-                    <img src="./images/Call Center.jpeg" class="card-img-top" alt="Soporte y Ayuda">
-                    <div class="card-body">
-                        <h5 class="card-title">¿PREGUNTAS RÁPIDAS?</h5>
-                        <p class="card-text">Tutores Disponibles 24/7.</p>
-                        <a href="./sections/contact.html" class="btn btn-primary">VER</a>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Please describe what you need</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
-                </div>
-            </div>
+                    <div class="mb-3">
+                        <label for="formFileMultiple" class="form-label">Please upload your documents</label>
+                        <input class="form-control" type="file" id="formFileMultiple" multiple>
+                      </div>
         </section>
     </main>
 <!-- inicio de footer --> 

@@ -40,6 +40,10 @@
   width: 85px;
 }
 
+.lightblue {
+  background-color: lightblue;
+}
+
 .menu {
   display: flex;
   list-style: none;
@@ -59,10 +63,6 @@ nav itemsMenu:hover {
 
 .primerFoto {
   width: 100%;
-}
-
-.lightblue{
-  background-color: lightblue;
 }
 
 .barraFlex {
@@ -144,6 +144,16 @@ h3 {
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+.container {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .imagenesCards {
