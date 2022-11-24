@@ -156,6 +156,10 @@ h3 {
   margin-left: auto;
 }
 
+.importeTotalAlert {
+  color: darkblue;
+}
+
 .imagenesCards {
   width: 100%;
 }/*# sourceMappingURL=styles.css.map */
