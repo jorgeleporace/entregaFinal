@@ -158,6 +158,24 @@ h3 {
 
 .importeTotalAlert {
   color: darkblue;
+  width: 100%;
+  text-align: center;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.courseSelector {
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+  color: darkblue;
 }
 
 .imagenesCards {
