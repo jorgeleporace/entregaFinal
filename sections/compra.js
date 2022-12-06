@@ -16,7 +16,6 @@ function inicializar(){
     this.total = 0;
     carrito.forEach(element => {
         this.total += element.precio;
-
     });
     document.getElementById("totalAbonar").innerHTML="Total a Abonar = $"+this.total;
 }
