@@ -44,7 +44,15 @@ const agregarCarrito = async (id) => {
     if (carritoStorage) {
         const c = JSON.parse(carritoStorage);
         if (c.some(curso => curso.id == id)) {
-            alert("El curso ya se encuentra en el carrito de compras");
+            Swal.fire({
+                title: '"El curso ya se encuentra en el carrito de compras"!',
+                text: '¡Por favor seleccione otro!',
+                imageUrl: 'http://127.0.0.1:5500/images/Logo_gls_512.png',
+                imageWidth: 200,
+                imageHeight: 200,
+                imageAlt: 'Custom image',
+            })
+            //alert se me borro
             return;
         }
     }

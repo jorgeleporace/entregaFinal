@@ -16,6 +16,36 @@ const inicializarTotal = async () => {
     });
 
     document.getElementById("totalAbonar").innerHTML = "Total a Abonar = $" + this.total;
+
 }
 
 inicializarTotal();
+const pagar = () => {
+    Swal.fire({
+        title: '¿Estás seguro?',
+        text: "¿Desea confirmar la compra?",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: '¡CONFIRMAR!'
+      }).then((result) => {
+        if (result.isConfirmed) {
+          Swal.fire(
+            '¡Su compra ha sido confirmada!',
+            '¡Muchas Gracias!',
+            'success'
+          ).then(()=>{
+            localStorage.removeItem('carrito');
+            window.location.href = "http://127.0.0.1:5500/index.html";
+          })
+        }
+        else{
+            Swal.fire(
+                '¡Su compra ha sido cancelada!',
+                '¡Puede seguir comprando cursos!',
+                'error'
+              )
+        }
+      })
+}
