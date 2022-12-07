@@ -1,21 +1,21 @@
-let carrito = []; 
 let total = 0;
-function agregarCarrito(nombreCurso,precio) {
-    let curso = new Curso (precio,nombreCurso);
-    carrito.push(curso);
-    total += precio
-    document.getElementById("totalAbonar").innerHTML="Total a Abonar = $"+total;
-    localStorage.setItem('carrito',JSON.stringify(carrito));
-}
-
-function pagar(){
-    window.location.href="http://127.0.0.1:5500/sections/abonar.html";
-}
-function inicializar(){
+const divContenedor = document.querySelector('.cards')
+const inicializarTotal = async () => {
     let carrito = JSON.parse(localStorage.getItem('carrito'))
     this.total = 0;
-    carrito.forEach(element => {
-        this.total += element.precio;
+    carrito.forEach(curso => {
+        const { id, descripcion, imagen, precio, titulo } = curso;
+        this.total += curso.precio;
+        divContenedor.innerHTML += `
+        <div class="card text-center m-3 bg-info text-white" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">${titulo}</h5>
+                <h6 class="card-title">Total: $${precio}</h6>
+            </div>
+        </div>`
     });
-    document.getElementById("totalAbonar").innerHTML="Total a Abonar = $"+this.total;
+
+    document.getElementById("totalAbonar").innerHTML = "Total a Abonar = $" + this.total;
 }
+
+inicializarTotal();

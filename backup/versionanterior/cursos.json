@@ -3,84 +3,84 @@
         "id":1,
         "descripcion":"ABC Courses",
         "precio":27999,
-        "imagen":"../images/abc.jpeg",
+        "imagen":"",
         "titulo":"First Steps in English"
     },
     {
         "id":2,
         "descripcion":"Support for School Students",
         "precio":19999,
-        "imagen":"../images/apoyoEscolar.jpeg",
+        "imagen":"",
         "titulo":"English For Scoolers"
     },
     {
         "id":3,
         "descripcion":"Get ready for the ICAO Exam",
         "precio":39999,
-        "imagen":"../images/inglesAeronautico.jpeg",
+        "imagen":"",
         "titulo":"English For Aviation"
     },
     {
         "id":4,
         "descripcion":"Improve your Technical Skills",
         "precio":38000,
-        "imagen":"../images/doYouSpeakEnglish.jpeg",
+        "imagen":"",
         "titulo":"First Steps in English"
     },
     {
         "id":5,
         "descripcion":"Become a better professional",
         "precio":35000,
-        "imagen":"../images/englishForControllers.jpeg",
+        "imagen":"",
         "titulo":"English For Controllers"
     },
     {
         "id":6,
         "descripcion":"Learn British and American History",
         "precio":28900,
-        "imagen":"../images/englishHistoryII.jpeg",
+        "imagen":"",
         "titulo":"English History"
     },
     {
         "id":7,
         "descripcion":"International Exams",
         "precio":22000,
-        "imagen":"../images/examenesInternacionales2.jpeg",
+        "imagen":"",
         "titulo":"International Exams"
     },
     {
         "id":8,
         "descripcion":"Become an International Lawyer",
         "precio":25000,
-        "imagen":"../images/INGLES PARA ABOGADOS.jpeg",
+        "imagen":"",
         "titulo":"English For Lawyers"
     },
     {
         "id":9,
         "descripcion":"Get ready to fly abroad!",
         "precio":26000,
-        "imagen":"../images/inglesAzafatas.jpeg",
+        "imagen":"",
         "titulo":"English For Cabin Crew"
     },
     {
         "id":10,
         "descripcion":"Become a better Assistant",
         "precio":21500,
-        "imagen":"../images/inglesAsistentes.jpeg",
+        "imagen":"",
         "titulo":"English For Assistants"
     },
     {
         "id":11,
         "descripcion":"Improve your Economics Skills",
         "precio":24900,
-        "imagen":"../images/ONLINE CONFERENCE ECONOMICS.jpeg",
+        "imagen":"",
         "titulo":"English For Accountants"
     },
     {
         "id":12,
         "descripcion":"Improve your conversation interacting with Native Speakers",
         "precio":24900,
-        "imagen":"../images/SMART GUY STUDYING.jpeg",
+        "imagen":"",
         "titulo":"Talk to Natives"
     }
 ]
